@@ -216,6 +216,31 @@
   margin-top: 55px;
   margin-bottom: 88px;
 }
+
+/*A que nos dedicamos*/
+.main-what-we-do li p{
+  background: rgba(47, 48, 58, 0.8);
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    width: 373px;
+    color: #FFFFFF;
+    padding: 28px 0px;
+    position: absolute;
+    bottom: -9px;
+}
+
+/*A que nos dedicamos*/
+.main-what-we-do li{
+  position: relative;
+}
+
+
 /*Nuestro Equipo*/
 .main-about-us {
   background: #f5f4fa;
@@ -350,12 +375,47 @@
   background-color: #ffffff;
   border: 1px solid #EEEEEE;
   padding-bottom: 10px;
+  position: relative;
 }
 
 /*Imagenes portafolio p */
+.card{
+  padding: 20px 10px;
+}
 
-.main-images1 li p {
-  margin-left: 10px;
+/* Imagenes portafolio texto emergente*/
+.card-emergent{
+  position: absolute;
+  top: 0;
+  height: 294px;
+  width: inherit;
+  background: rgba(33, 150, 243, 0.9);
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  transform: translateY(105%);
+  transition: transform 250ms ease;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Imagenes portafolio texto emergente*/
+.main-images1 li:hover .card-emergent{
+  transform: translateY(0%);
+}
+
+/* Imagenes portafolio texto emergente*/
+.card-image{
+  overflow: hidden;
+  position: relative;
+}
+
+/* Imagenes portafolio texto emergente*/
+.card-emergent > p {
+  font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+  padding: 45px 25px;
 }
 
 /*Portafolio imagnes sombra*/
