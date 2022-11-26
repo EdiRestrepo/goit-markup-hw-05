@@ -113,7 +113,7 @@
 /*Imagen de fondo pricipal*/
 .main-title {
   background: linear-gradient(310deg, #0000005d, #2f303a94),
-    url("/images/imagenfondo.jpg");
+    url("../images/imagenfondo.jpg");
   background-size: cover;
 }
 
