@@ -289,8 +289,8 @@
 
 .modal {
   position: absolute;
-  width: 530px;
-  height: 620px;
+  width: 400px;
+  height: 500px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -302,14 +302,14 @@
 
 /*Ventana modal boton x*/
 .btn-modal {
+  position: relative;
   box-sizing: border-box;
   height: 40px;
   width: 40px;
   border-radius: 20px;
-  left: 1026px;
-  top: 229px;
+  right: -164px;
+  top: -4px;
   cursor: pointer;
-  margin: 8px 8px 8px 460px;
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
