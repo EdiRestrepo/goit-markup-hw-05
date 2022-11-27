@@ -22,18 +22,18 @@
           <li>
             <a href="" target="" rel="" class="anchor webstudio">WebStudio</a>
           </li>
-          <li><a href="" target="" rel="" class="anchor filter">Estudio</a></li>
+          <li><a href="" target="" rel="" class="anchor filter filter1">Estudio</a></li>
           <li>
             <a
               href="portfolio.html"
               target="_blank"
               rel=""
-              class="anchor filter"
+              class="anchor filter filter2"
               >Portafolio</a
             >
           </li>
           <li>
-            <a href="" target="_blank" rel="" class="anchor filter"
+            <a href="" target="_blank" rel="" class="anchor filter filter3"
               >Contactos</a
             >
           </li>
@@ -46,7 +46,7 @@
                 href="mailto:info@devstudio.com"
                 target="_blank"
                 rel=""
-                class="anchor contact"
+                class="anchor contact contact3"
               >
                 <svg
                   width="16"
@@ -68,7 +68,7 @@
                 href="tel:+52 55 5529 6000"
                 target="_blank"
                 rel=""
-                class="anchor contact"
+                class="anchor contact contact4"
               >
                 <svg
                   width="10"
@@ -98,9 +98,16 @@
       <!-- Nombre del negocio -->
       <section class="main-title">
         <h1>SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-        <button type="button" class="button main-button">
+        <button data-modal-open type="button" class="button main-button">
           Solicite nuestro servicio
         </button>
+
+        <div class="backdrop is-hidden" data-modal>
+          <div class="modal">
+
+          <button data-modal-close class="btn-modal">X</button>
+          </div>
+        </div>
       </section>
 
       <!-- Nuestras ventajas de WebStudio -->
@@ -1199,5 +1206,6 @@
         </div>
       </address>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
