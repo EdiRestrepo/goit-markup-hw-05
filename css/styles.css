@@ -288,7 +288,7 @@
 /*Ventana modal retangulo*/
 
 .modal {
-  position: absolute;
+  position: relative;
   width: 450px;
   height: 580px;
   top: 70%;
